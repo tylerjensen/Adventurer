@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Adventurer": {
+      "commandName": "Project",
+      "commandLineArgs": "-gadv01.dat"
+    }
+  }
+}

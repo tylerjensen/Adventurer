@@ -51,12 +51,12 @@ namespace AdventurerWIN
 
         private void SetColours()
         {
-            txtInput.BackColor = Properties.Settings.Default.BackGroundColour;
-            txtInput.ForeColor = Properties.Settings.Default.ForeGroundColour; ;
-            txtMessages.BackColor = Properties.Settings.Default.BackGroundColour;
-            txtMessages.ForeColor = Properties.Settings.Default.ForeGroundColour; ;
-            txtView.BackColor = Properties.Settings.Default.BackGroundColour;
-            txtView.ForeColor = Properties.Settings.Default.ForeGroundColour;
+            //txtInput.BackColor = Properties.Settings.Default.BackGroundColour;
+            //txtInput.ForeColor = Properties.Settings.Default.ForeGroundColour; ;
+            //txtMessages.BackColor = Properties.Settings.Default.BackGroundColour;
+            //txtMessages.ForeColor = Properties.Settings.Default.ForeGroundColour; ;
+            //txtView.BackColor = Properties.Settings.Default.BackGroundColour;
+            //txtView.ForeColor = Properties.Settings.Default.ForeGroundColour;
         }
 
         private void LoadNewGame(string pGame)
@@ -147,8 +147,8 @@ namespace AdventurerWIN
             {
                 if (cfd.ShowDialog() == DialogResult.OK)
                 {
-                    Properties.Settings.Default.ForeGroundColour = cfd.Color;
-                    Properties.Settings.Default.Save();
+                    //Properties.Settings.Default.ForeGroundColour = cfd.Color;
+                    //Properties.Settings.Default.Save();
                     SetColours();
                 }
             }
@@ -160,8 +160,8 @@ namespace AdventurerWIN
             {
                 if (cfd.ShowDialog() == DialogResult.OK)
                 {
-                    Properties.Settings.Default.BackGroundColour = cfd.Color;
-                    Properties.Settings.Default.Save();
+                    //Properties.Settings.Default.BackGroundColour = cfd.Color;
+                    //Properties.Settings.Default.Save();
                     SetColours();
                 }
             }
@@ -204,9 +204,9 @@ namespace AdventurerWIN
                 if (fd.ShowDialog() == DialogResult.OK)
                 {
 
-                    txtInput.Font = txtMessages.Font = txtView.Font =  Properties.Settings.Default.TextFont = fd.Font;
+                    //txtInput.Font = txtMessages.Font = txtView.Font =  Properties.Settings.Default.TextFont = fd.Font;
 
-                    Properties.Settings.Default.Save();
+                    //Properties.Settings.Default.Save();
 
                     AutoSizeInput();
                 }
@@ -376,8 +376,8 @@ namespace AdventurerWIN
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Properties.Settings.Default.FormSize = this.Size;
-            Properties.Settings.Default.Save();
+            //Properties.Settings.Default.FormSize = this.Size;
+            //Properties.Settings.Default.Save();
         }
 
         private void loadReplayToolStripMenuItem_Click(object sender, EventArgs e)

@@ -5,7 +5,7 @@ using System.Xml.Linq;
 using GameEngine;
 
 
-namespace AdventurerDOS
+namespace Adventurer
 {
     class Program
     {
@@ -53,7 +53,7 @@ namespace AdventurerDOS
 
         static void Main(string[] args)
         {
-            Console.WindowWidth = 70;
+            //Console.WindowWidth = 70;
 
             Console.Clear();
             string arg;

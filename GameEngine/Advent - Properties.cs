@@ -1,6 +1,6 @@
 ﻿namespace GameEngine
 {
-    static partial class Advent
+    public static partial class Advent
     {
 
 

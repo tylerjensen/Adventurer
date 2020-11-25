@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>99d0f20c-a019-4a08-9a3e-d75abf1e6e67</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+</Project>

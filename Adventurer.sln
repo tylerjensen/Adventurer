@@ -1,38 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventurerDOS", "Adventurer\AdventurerDOS.csproj", "{A6A15D2F-070F-4564-92A3-CC09BF99941B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameEngine", "GameEngine\GameEngine.csproj", "{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GameEngine", "GameEngine\GameEngine.shproj", "{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventurerWin", "AdventurerWIN\AdventurerWin.csproj", "{40150D8D-2F06-4B49-843F-5E3138F02208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventurerWIN", "AdventurerWIN\AdventurerWIN.csproj", "{57C235C9-E3E6-44FC-AF75-77FBBB121A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adventurer", "Adventurer\Adventurer.csproj", "{BC01D1A9-B0BE-4267-9EA3-815D8EE48A6E}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		GameEngine\GameEngine.projitems*{57c235c9-e3e6-44fc-af75-77fbbb121a3d}*SharedItemsImports = 4
-		GameEngine\GameEngine.projitems*{99d0f20c-a019-4a08-9a3e-d75abf1e6e67}*SharedItemsImports = 13
-		GameEngine\GameEngine.projitems*{a6a15d2f-070f-4564-92a3-cc09bf99941b}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6A15D2F-070F-4564-92A3-CC09BF99941B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6A15D2F-070F-4564-92A3-CC09BF99941B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6A15D2F-070F-4564-92A3-CC09BF99941B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6A15D2F-070F-4564-92A3-CC09BF99941B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57C235C9-E3E6-44FC-AF75-77FBBB121A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57C235C9-E3E6-44FC-AF75-77FBBB121A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57C235C9-E3E6-44FC-AF75-77FBBB121A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57C235C9-E3E6-44FC-AF75-77FBBB121A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D0F20C-A019-4A08-9A3E-D75ABF1E6E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40150D8D-2F06-4B49-843F-5E3138F02208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40150D8D-2F06-4B49-843F-5E3138F02208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40150D8D-2F06-4B49-843F-5E3138F02208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40150D8D-2F06-4B49-843F-5E3138F02208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC01D1A9-B0BE-4267-9EA3-815D8EE48A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC01D1A9-B0BE-4267-9EA3-815D8EE48A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC01D1A9-B0BE-4267-9EA3-815D8EE48A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC01D1A9-B0BE-4267-9EA3-815D8EE48A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0E04153F-0DB0-4A63-B835-59062A0186FD}
+		SolutionGuid = {3DCD11A9-EFF9-4E3C-A91A-39C70EAF745D}
 	EndGlobalSection
 EndGlobal

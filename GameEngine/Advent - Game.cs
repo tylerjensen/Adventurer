@@ -8,7 +8,7 @@ namespace GameEngine
     /// <summary>
     /// Game processing goes on in here.
     /// </summary>
-    static partial class Advent
+    public static partial class Advent
     {
         /// <summary>
         /// Process the user input from the game

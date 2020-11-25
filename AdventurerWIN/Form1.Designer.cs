@@ -272,13 +272,13 @@
             // 
             // txtInput
             // 
-            this.txtInput.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
-            this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtInput.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
+            //this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtInput.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.txtInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtInput.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
-            this.txtInput.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
+            //this.txtInput.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
+            //this.txtInput.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
             this.txtInput.Location = new System.Drawing.Point(3, 643);
             this.txtInput.Name = "txtInput";
             this.txtInput.ReadOnly = true;
@@ -288,13 +288,13 @@
             // 
             // txtView
             // 
-            this.txtView.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
-            this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtView.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
+            //this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtView.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.txtView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtView.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
-            this.txtView.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
+            //this.txtView.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
+            //this.txtView.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
             this.txtView.Location = new System.Drawing.Point(3, 3);
             this.txtView.Multiline = true;
             this.txtView.Name = "txtView";
@@ -306,13 +306,13 @@
             // 
             // txtMessages
             // 
-            this.txtMessages.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
-            this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtMessages.BackColor = global::AdventurerWIN.Properties.Settings.Default.BackGroundColour;
+            //this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::AdventurerWIN.Properties.Settings.Default, "BackGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::AdventurerWIN.Properties.Settings.Default, "ForeGroundColour", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.txtMessages.DataBindings.Add(new System.Windows.Forms.Binding("Font", global::AdventurerWIN.Properties.Settings.Default, "TextFont", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.txtMessages.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtMessages.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
-            this.txtMessages.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
+            //this.txtMessages.Font = global::AdventurerWIN.Properties.Settings.Default.TextFont;
+            //this.txtMessages.ForeColor = global::AdventurerWIN.Properties.Settings.Default.ForeGroundColour;
             this.txtMessages.Location = new System.Drawing.Point(3, 323);
             this.txtMessages.Multiline = true;
             this.txtMessages.Name = "txtMessages";
@@ -343,10 +343,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = global::AdventurerWIN.Properties.Settings.Default.FormSize;
+            //this.ClientSize = global::AdventurerWIN.Properties.Settings.Default.FormSize;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
-            this.DataBindings.Add(new System.Windows.Forms.Binding("ClientSize", global::AdventurerWIN.Properties.Settings.Default, "FormSize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            //this.DataBindings.Add(new System.Windows.Forms.Binding("ClientSize", global::AdventurerWIN.Properties.Settings.Default, "FormSize", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(437, 364);

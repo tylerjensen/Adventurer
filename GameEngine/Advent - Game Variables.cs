@@ -2,7 +2,7 @@
 
 namespace GameEngine
 {
-    static partial class Advent
+    public static partial class Advent
     {
         static int _seed;
         static int Seed
